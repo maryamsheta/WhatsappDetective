@@ -49,7 +49,7 @@ def filter_message(message):
     "Missed group", "Missed voice call", "Missed video call", 
     "Messages and calls are end-to-end encrypted.","changed their phone number",
     "an admin","changed the group name","the group description","changed the settings","this group's","null",
-    "You added"]
+    "You added","You were added","You started a call","You changed this group's"]
     return not any(filter in message for filter in filters)
 
 def handle_mentions(message):
